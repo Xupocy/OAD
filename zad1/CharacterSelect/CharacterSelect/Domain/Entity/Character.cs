@@ -12,6 +12,8 @@ public abstract class Character
     public int Strength { get; protected set; }
     public int Intelligence { get; protected set; }
     public int Agility { get; protected set; }
+    public int Sila { get; set; }
+    public int Inteligencja { get; set; }
 
     protected Character(string name, CharacterClass @class)
     {
